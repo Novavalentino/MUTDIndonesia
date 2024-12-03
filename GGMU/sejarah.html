@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>#GGMU Sejarah</title>
+</head>
+<body>
+    <!--TAB SEJARAH-->
+    <header> <!--INI SECTION HEADER UNTUK SPONSOR BESERTA NAVBARNYA-->
+        <div class="sponsor">
+            <img src="" alt="sponsor1">
+            <img src="" alt="sponsor2">
+            <img src="" alt="sponsor3">
+        </div>
+        <div class="navbar"> <!--SECTION NAVBAR-->
+            <ul>
+                <li><a href="landing.html">Beranda</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <li><a href="sejarah.html">Sejarah</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <li><a href="#">Penghargaan</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <li><a href="#">Pemain</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <li><a href="#">Kesebelasan</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <li><a href="#">Jersey</a></li> 
+            </ul>
+        </div>
+    </header>
+
+    <div class="main">
+
+        <!--INI SECTION INTI DARI PROGRAM-->
+        <div class="emyu"> <!--INI UNTUK NAMA TAMPILAN AWAL-->
+            <aside>
+                <img src="./assets/GGMU.png" alt="#GGMU">
+            </aside>            
+        </div>
+
+        <div class="Sejarah">
+            <h2>
+                "Benamkan diri Anda dalam kisah sepak bola terhebat yang pernah diceritakan dalam panduan dekade demi dekade kami tentang kekayaan sejarah United..."
+            </h2>
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1878 sampai 1909</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan1()">+</button>
+                <div id="penjelasan1" hidden>
+                    <h3>
+                        <strong>Klub Sepak Bola Manchester United pertama kali dibentuk pada tahun 1878, meskipun dengan nama yang berbeda - Newton Heath LYR (Lancashire dan Yorkshire Railway).</strong>
+                    </h3><br>
+                    <p>Tanpa menyadari dampak yang akan mereka timbulkan terhadap pertandingan nasional, bahkan global, para pekerja di halaman kereta api di Newton Heath memanjakan hasrat mereka terhadap sepak bola dengan pertandingan melawan departemen lain di LYR dan perusahaan kereta api lainnya.</p><br>
+                    <p>Memang benar, ketika Football League dibentuk pada tahun 1888, Newton Heath tidak menganggap dirinya cukup baik untuk menjadi anggota pendiri bersama pemain seperti Blackburn Rovers dan Preston North End. Sebaliknya, mereka menunggu hingga tahun 1892 untuk masuk, bergabung dengan liga di tingkat Divisi Satu tetapi sayangnya terdegradasi ke Divisi Dua setelah hanya dua musim di papan atas.</p><br>
+                    <p>Masalah keuangan melanda klub dan, pada awal abad ke-20, sepertinya mereka ditakdirkan untuk punah. Namun tim tersebut diselamatkan oleh pemilik tempat pembuatan bir lokal <strong>John Henry Davies</strong>. Legenda mengatakan bahwa dia mengetahui penderitaan klub ketika dia menemukan seekor anjing milik kapten <strong>Harry Stafford</strong>.</p><br>
+                    <p><strong>John Henry Davies</strong> memutuskan untuk berinvestasi di Newton Heath dengan imbalan sebagian kendali dalam pengelolaannya. Hal ini menyebabkan perubahan nama klub, dan setelah beberapa alternatif seperti Manchester Central dan Manchester Celtic ditolak, nama Manchester United lahir pada April/Mei 1902.</p><br>
+                    <p>Figur penting berikutnya yang tiba di Manchester United adalah <strong>Ernest Mangnall</strong>, yang diangkat sebagai sekretaris pada September 1903. Ia secara luas dianggap sebagai manajer pertama klub. Timnya, termasuk pemain baru seperti penjaga gawang <strong>Harry Moger</strong> dan penyerang <strong>Charlie Sagar</strong>, finis di posisi ketiga Divisi Kedua pada musim 1903/04 dan 1904/05.</p><br>
+                    <p>Musim berikutnya, 1905/06, menjadi salah satu yang terbaik dalam sejarah awal Manchester United. Lini tengah yang terdiri dari <strong>Dick Duckworth</strong>, <strong>Alex Bell</strong>, dan kapten <strong>Charlie Roberts</strong> berperan penting dalam tim yang mencapai perempat final Piala FA dan, yang lebih penting, menjadi runner-up di Divisi Kedua. Setelah 12 tahun terdegradasi, United akhirnya kembali ke divisi utama. Untuk merayakan, <strong>Ernest Mangnall</strong> merekrut <strong>Billy Meredith</strong> dari rival Manchester City. Dijuluki "Sang Penyihir Wales," <strong>Meredith</strong> terlibat dalam skandal suap di City dan dijadwalkan akan dilelang bersama 17 pemain lainnya. <strong>Mangnall</strong> dengan cerdik bergerak cepat dan mendapatkan tanda tangan <strong>Meredith</strong> sebelum lelang dimulai.</p><br>
+                    <p>Kehadiran <strong>Billy Meredith</strong> terbukti inspiratif - ia mencetak banyak assist untuk <strong>Sandy Turnbull</strong> pada musim 1907/08, saat United memenangkan gelar Liga Sepak Bola untuk pertama kalinya. Sebagai juara, United bermain di Charity Shield pertama pada tahun 1908 dan memenangkan trofi tersebut dengan mengalahkan juara Liga Selatan, QPR, 4-0 berkat hat-trick dari pemain bernama <strong>Jimmy Turnbull</strong>. Trofi ketiga yang ditambahkan ke daftar kehormatan klub adalah Piala FA, setelah perjalanan luar biasa pada tahun 1909. United mengalahkan Bristol City 1-0 di final, berkat gol kemenangan dari <strong>Sandy Turnbull</strong>.</p><br>
+                </div>
+                <script>
+                    function penjelasan1(){
+                        var x = document.getElementById('penjelasan1');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1910 sampai 1919</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan2()">+</button>
+                <div id="penjelasan2" hidden>
+                    <h3>
+                        <strong>Kata-kata Old Trafford memasuki cerita rakyat sepak bola untuk pertama kalinya pada musim 1909/10. Tanah di mana stadion dibangun dibeli oleh Manchester Brewery Company (melalui John Henry Davies) dan disewakan kepada klub.</strong>
+                    </h3><br>
+                    <p><strong>John Henry Davies</strong> sendiri yang membiayai pembangunan stadion baru, yang dimulai pada tahun 1908 di bawah pengawasan arsitek <strong>Archibald Leitch</strong>. Pada tahun 1910, klub sepenuhnya pindah dari rumah lama mereka di Bank Street. Pertandingan pembukaan Manchester United di Old Trafford dimainkan pada 19 Februari 1910. Tuan rumah kalah 4-3 dari tamu pertama mereka, Liverpool, tetapi stadion baru itu berhasil menampung kapasitas 80.000 penonton. Dua hari sebelumnya, tribun kayu di Bank Street roboh diterjang angin kencang - sebuah bukti lebih lanjut, mungkin, bahwa United memang membutuhkan rumah baru mereka.</p><br>
+                    <p>United dinobatkan sebagai juara Liga untuk kedua kalinya di akhir musim penuh pertama mereka di Old Trafford - 1910/1911. The Reds meraih gelar di kandang pada hari terakhir musim tersebut, mengalahkan Sunderland 5-1 dengan <strong>Harold Halse</strong> mencetak dua gol. <strong>Halse</strong> juga mencetak enam gol saat United mengalahkan Swindon Town 8-4 untuk merebut Charity Shield.</p><br>
+                    <p>Namun, meskipun mencapai prestasi tersebut, United tidak mampu mempertahankan performa mereka, dan pada musim 1911/12, sang juara bertahan hanya finis di posisi ke-13 yang mengecewakan. Sekretaris-manajer <strong>Ernest Mangnall</strong> menerima banyak kritik dan akhirnya mengundurkan diri untuk bergabung dengan tetangga sekaligus rival United, Manchester City. Pencarian pengganti <strong>Mangnall</strong> berakhir pada <strong>JJ Bentley</strong>, presiden Football League. Di bawah kepemimpinannya, United berhasil finis di posisi keempat Liga pada akhir musim 1912/13.</p><br>
+                    <p>Musim 1913/14 menjadi periode transisi, sementara musim berikutnya mencatat perubahan besar dalam manajemen. Pada Desember 1914, peran sekretaris dan manajer tim dipisahkan untuk pertama kalinya. <strong>Bentley</strong> menjadi sekretaris penuh waktu, dan <strong>John Robson</strong> diangkat untuk mengurus dan memilih tim. Tim <strong>Robson</strong> jauh berbeda dari tim yang bersinar di dekade sebelumnya, karena hanya <strong>George Stacey</strong>, <strong>Billy Meredith</strong>, <strong>Sandy Turnbull</strong>, dan <strong>George Wall</strong> yang tersisa dari skuad pemenang Piala FA 1909. Tidak mengherankan, klub mengalami kesulitan dan hanya terhindar dari degradasi dengan selisih satu poin.</p><br>
+                    <p>Sebelum United dapat merencanakan pemulihan, pecahnya Perang Dunia Pertama membuat sepak bola menjadi prioritas kesekian. Liga Sepak Bola ditangguhkan, dan klub-klub beralih bermain di kompetisi regional. United bermain di Turnamen Principal dan Subsidiary Lancashire selama empat musim, tetapi kompetisi ini kurang memberikan hasil yang memuaskan. Penderitaan diperburuk oleh fakta bahwa dua pemain klub dinyatakan bersalah melakukan pengaturan skor. <strong>Enoch West</strong> dilarang bermain seumur hidup, begitu pula <strong>Sandy Turnbull</strong>, yang bergabung dengan Footballers' Battalion untuk membantu upaya perang Inggris. Tragisnya, <strong>Turnbull</strong> tewas dalam pertempuran di Prancis pada Mei 1917, dan satu lagi hubungan dengan masa kejayaan awal klub pun hilang.</p><br>
+                </div>
+                <script>
+                    function penjelasan2(){
+                        var x = document.getElementById('penjelasan2');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1920 sampai 1929</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan3()">+</button>
+                <div id="penjelasan3" hidden>
+                    <h3>
+                        <strong>Manchester United kembali ke Liga sepak bola pada tanggal 30 Agustus 1919, menyusul jeda empat tahun yang disebabkan oleh Perang Dunia Pertama. Tim untuk pertandingan pertama melawan Derby County menyertakan banyak wajah baru - faktanya hanya dua pemain yang bertugas yang pernah bermain di pertandingan liga United sebelumnya pada akhir musim 1914/15.</strong>
+                    </h3><br>
+                    <p><strong>Billy Meredith</strong> masih berada di Old Trafford, tetapi karier gemilangnya di sana mendekati akhir. Ia hanya tampil dalam 19 pertandingan pada musim 1919/20 ketika United finis di posisi ke-12 di Divisi Pertama. Pahlawan baru di tribun, <strong>Joe Spence</strong>, mengakhiri musim sebagai pencetak gol terbanyak tim dengan 14 gol Liga. Ia kembali menjadi pencetak gol terbanyak bersama pada musim 1920/21, meskipun kali ini hanya mencetak setengah dari jumlah sebelumnya, sementara United kembali tampil di bawah harapan dengan finis di posisi ke-13.</p><br>
+                    <p>Manajer <strong>John Robson</strong> kemudian meninggalkan klub, digantikan oleh <strong>John Chapman</strong>, yang kembali ke peran ganda sebagai sekretaris/manajer yang sebelumnya dipegang oleh <strong>JJ Bentley</strong>. Sementara itu, mantan manajer <strong>Ernest Mangnall</strong> terus menjadi berita utama lokal bersama Manchester City, saat mereka pindah ke stadion baru di Maine Road.</p><br>
+                    <p><strong>Mangnall</strong> juga merekrut kembali <strong>Meredith</strong> untuk City, dan meskipun usianya sudah lanjut, mungkin bukan kebetulan bahwa United terdegradasi di musim pertama tanpa dirinya, hanya memenangkan delapan dari 42 pertandingan mereka pada musim 1921/22. Tim <strong>Chapman</strong> berhasil keluar dari Divisi Kedua pada upaya ketiga, dengan kepemimpinan di lapangan dari <strong>Frank Barson</strong> yang memastikan promosi di akhir musim 1924/25. United finis di posisi kedua setelah Leicester City, hanya kalah delapan pertandingan.</p><br>
+                    <p>Status United di divisi utama diperkuat dengan finis di posisi kesembilan pada musim 1925/26. Tim <strong>Chapman</strong> juga menjalani perjalanan luar biasa di Piala FA, tetapi langkah mereka terhenti di semifinal setelah dikalahkan Manchester City 3-0 di Bramall Lane, Sheffield. Keberuntungan City kemudian habis, karena mereka kalah di final (dari Bolton) dan terdegradasi dari Divisi Pertama.</p><br>
+                    <p>Namun, pendukung United tidak bisa terlalu gembira melihat kemalangan City. Dua bulan memasuki musim 1926/27, mereka menghadapi masalah sendiri ketika FA menangguhkan manajer <strong>Chapman</strong> dengan segera, meskipun alasan pastinya tidak pernah dipublikasikan. Gelandang sayap <strong>Clarence Hilditch</strong> mengambil alih sebagai pemain-manajer sementara klub mencari pengganti permanen, tetapi 'Lal' enggan memilih dirinya sendiri, dan tim pun menderita.</p><br>
+                    <p>Penerus permanen <strong>Chapman</strong>, <strong>Herbert Bamlett</strong>, tiba di kemudian hari pada musim itu. Ia sudah dikenal oleh para penggemar United sebagai wasit yang membatalkan pertandingan perempat final Piala FA klub melawan Burnley pada tahun 1909, ketika United tertinggal 1-0 di tengah badai salju. Namun, <strong>Bamlett</strong> terlalu kedinginan untuk meniup peluit akhir, sehingga <strong>Charlie Roberts</strong> yang melakukannya, dan United pun akhirnya memenangkan Piala FA musim itu!</p><br>
+                    <p>Sayangnya, <strong>Bamlett</strong> tidak membawa dampak positif bagi kesuksesan United sebagai manajer mereka. Tim perlahan turun peringkat di Divisi Pertama, finis di posisi ke-15 pada musim 1926/27, posisi ke-18 pada musim 1927/28, sebelum sedikit pulih di posisi ke-12 pada musim 1928/29. <strong>Spence</strong> terus mencetak banyak gol, tetapi bahkan ia tidak mampu menghentikan kemunduran United yang terus berlanjut.</p>
+                    
+                </div>
+                <script>
+                    function penjelasan3(){
+                        var x = document.getElementById('penjelasan3');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1930 sampai 1939</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan4()">+</button>
+                <div id="penjelasan4" hidden>
+                    <h3>
+                        <strong>Kemunduran yang dimulai pada tahun 1920-an berlanjut pada awal tahun 1930-an ketika United finis di urutan ke-17 pada tahun 1929/30, yang membuat para penggemar ketakutan.</strong>
+                    </h3><br>
+                    <p>Kekhawatiran mereka menjadi kenyataan pada musim berikutnya, ketika United membuat awal terburuk dalam sejarah mereka dengan kalah dalam 12 pertandingan liga pertama berturut-turut. Kekalahan tersebut termasuk kekalahan telak berturut-turut di Old Trafford, 6-0 oleh Huddersfield Town dan kemudian 7-4 oleh Newcastle United. United akhirnya kalah dalam 27 dari 42 pertandingan liga pada musim 1930/31, kebobolan 115 gol. Degradasi membuat manajer <strong>Herbert Bamlett</strong> mundur, dan sekretaris <strong>Walter Crickmer</strong> mengambil alih urusan tim. Kesabaran para pendukung benar-benar diuji, dan banyak dari mereka tidak bertahan - hanya 3.507 orang yang hadir pada pertandingan pembukaan musim berikutnya. Saat musim berjalan, situasi semakin memburuk. Pada bulan Desember, tidak ada uang untuk membayar gaji pemain. Kebangkrutan menjadi ancaman nyata.</p><br>
+                    <p>Penyelamat klub datang dalam wujud <strong>James Gibson</strong>, seorang produsen seragam militer. Ia menginvestasikan £30.000, membayar para pemain, dan mengembalikan kondisi klub ke jalur yang benar. Ia menunjuk manajer baru, <strong>Scott Duncan</strong>, yang diberi uang untuk belanja pemain. Namun, ia tidak memanfaatkannya dengan baik. Serangkaian hasil buruk di bawah Duncan pada musim 1933/34 membawa United ke ambang degradasi ke Divisi Ketiga untuk pertama kalinya dalam sejarah klub. Kelangsungan hidup hanya diamankan pada hari terakhir musim, ketika kemenangan 2-0, dengan gol dari <strong>Tom Manley</strong> dan <strong>Jack Cape</strong>, membuat lawan mereka, Millwall, terdegradasi. Pada minggu yang sama, Manchester City memenangkan Piala FA, dengan seorang pemain bernama <strong>Matt Busby</strong> di dalam tim mereka.</p><br>
+                    <p>United menyelesaikan musim 1934/35 di posisi kelima dan, pada musim berikutnya, meraih trofi pertama mereka dalam dekade tersebut. Tak terkalahkan selama 19 pertandingan terakhir kampanye, United memastikan gelar juara Divisi Kedua dengan kemenangan 3-2 atas Bury di Gigg Lane. Bentuk akhir musim di Divisi Kedua menunjukkan bahwa United akan tampil baik saat kembali ke divisi utama, tetapi, pada Natal, tim hanya memenangkan empat pertandingan, termasuk satu pada hari Natal itu sendiri! Hanya 10 kemenangan sepanjang musim menyebabkan degradasi, sementara City sekali lagi menikmati keberuntungan yang kontras karena mereka dinobatkan sebagai juara Liga. Tim United yang terdegradasi itu termasuk <strong>Walter Winterbottom</strong>, yang kemudian akan dianugerahi gelar kebangsawanan setelah melatih tim nasional Inggris selama 16 tahun.</p><br>
+                    <p>Fluktuasi terus berlanjut ketika United kembali promosi pada musim berikutnya, 1937/38, sebagai runner-up di bawah Aston Villa. Manajer <strong>Duncan</strong> hanya dapat mengklaim sebagian kredit, karena ia meninggalkan klub pada November 1937 untuk menangani Ipswich Town. <strong>Walter Crickmer</strong> kembali mengambil alih sebagai manajer sementara United. Sorotan musim Duncan dan Crickmer adalah penemuan <strong>Johnny Carey</strong>, yang kemudian diakui sebagai salah satu bek terbaik dalam sejarah sepak bola. Bermain dalam 32 pertandingan dan mencetak enam gol di posisi yang lebih maju, pemain asal Irlandia tersebut membantu United bertahan di divisi utama kali ini, finis di posisi ke-14, sementara City giliran terdegradasi. Tidak ada waktu untuk berpuas diri, karena pecahnya perang sekali lagi menghentikan Liga Sepak Bola selama beberapa tahun.</p><br>
+
+
+                </div>
+                <script>
+                    function penjelasan4(){
+                        var x = document.getElementById('penjelasan4');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1940 sampai 1949</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan5()">+</button>
+                <div id="penjelasan5" hidden>
+                    <h3>
+                        <strong>Pecahnya Perang Dunia Kedua memaksa sepak bola menjadi bagian paling belakang dari pikiran orang-orang antara tahun 1939 dan 1946. Namun meski tidak ada sepak bola Liga, Old Trafford masih menjadi fokus perhatian.</strong>
+                    </h3><br>
+                    <p>Pada 11 Maret 1941, stadion dibom selama serangan udara Jerman. Serangan itu menghancurkan tribun utama, ruang ganti, dan kantor. Itu adalah pukulan yang menghancurkan, tetapi dalam beberapa tahun, akan ada optimisme lagi di sekitar stadion tua yang terkenal itu.</p><br>
+                    <p>Optimisme itu datang dengan seorang pria bernama <strong>Matt Busby</strong>, yang akan terbukti menjadi figur yang sangat penting dalam sejarah Manchester United. Seorang mantan pemain Manchester City dan Liverpool, <strong>Busby</strong> bertugas di Batalyon Kesembilan dari King's Liverpool Regiment, di mana kualitas kepemimpinannya bersinar. Kualitas ini tidak luput dari perhatian United.</p><br>
+                    <p><strong>Busby</strong> bergabung dengan United pada tahun 1945, awalnya dengan kontrak lima tahun. Sedikit yang dia tahu bahwa dia masih akan melatih klub ini 25 tahun kemudian! Manajer muda ini tidak membuang waktu untuk menunjukkan pengaruhnya, dengan mengubah posisi beberapa pemain kunci. Dia juga mendirikan kelompok penyerang yang dikenal sebagai 'Famous Five' dengan menyatukan <strong>Jimmy Delaney</strong>, <strong>Stan Pearson</strong>, <strong>Jack Rowley</strong>, <strong>Charlie Mitten</strong>, dan <strong>Johnny Morris</strong>.</p><br>
+                    <p>Mungkin penandatanganan paling penting yang dilakukan <strong>Busby</strong> adalah di staf pelatih. <strong>Matt</strong> bertemu dengan <strong>Jimmy Murphy</strong> selama perang dan mengidentifikasinya sebagai pasangan yang sempurna untuk menjadi tangan kanannya. Keduanya membentuk kemitraan yang akan membawa United menjadi kekuatan dalam sepak bola dunia.</p><br>
+                    <p>Langkah pertama <strong>Busby</strong> dan <strong>Murphy</strong> menuju kejayaan adalah membangun tim yang mampu bersaing untuk meraih penghargaan domestik. Mereka hampir berhasil pada percobaan pertama, karena United finis kedua setelah Liverpool dalam kampanye Liga Sepak Bola pertama setelah perang, pada musim 1946/47. Itu adalah posisi tertinggi klub dalam 36 tahun, dan ada alasan tambahan untuk optimisme ketika tim cadangan mereka memenangkan Kejuaraan Liga Tengah di musim yang sama.</p><br>
+                    <p>Kombinasi pemain muda lokal dan pemain berpengalaman yang dibentuk <strong>Busby</strong> mengangkat trofi pertama mereka pada tahun berikutnya, ketika mengalahkan Blackpool yang diperkuat <strong>Stanley Matthews</strong>, <strong>Stan Mortensen</strong>, dan <strong>Harry Johnston</strong> di final Piala FA 1948. Itu adalah 39 tahun sejak United terakhir kali memenangkan Piala, yaitu pada tahun 1909.</p><br>
+                    <p>Piala FA juga menjadi penghargaan besar pertama klub sejak memenangkan Kejuaraan Liga pada tahun 1911, dan merebut kembali gelar itu kini menjadi target utama tim <strong>Busby</strong>. Dalam lima musim pertama masa kepemimpinannya setelah perang, United finis di posisi kedua empat kali, dan posisi keempat sekali (1949/50).</p><br>
+                    <p>Semangat mengejar gelar ini membawa kembali para penggemar – lebih dari satu juta orang melewati pintu masuk stadion pada musim 1947/48, mengeluarkan klub dari utang. Tentu saja para penggemar ini tidak perlu menunggu lama untuk mendapatkan penghargaan yang mereka dambakan...</p>
+                    
+                </div>
+                <script>
+                    function penjelasan5(){
+                        var x = document.getElementById('penjelasan5');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1950 sampai 1959</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan2()">+</button>
+                <div id="penjelasan2">
+                    <h3>
+                        <strong>Kata-kata Old Trafford memasuki cerita rakyat sepak bola untuk pertama kalinya pada musim 1909/10. Tanah di mana stadion dibangun dibeli oleh Manchester Brewery Company (melalui John Henry Davies) dan disewakan kepada klub.</strong>
+                    </h3><br>
+                    
+                </div>
+                <script>
+                    function penjelasan2(){
+                        var x = document.getElementById('penjelasan2');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1960 sampai 1969</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan2()">+</button>
+                <div id="penjelasan2">
+                    <h3>
+                        <strong>Kata-kata Old Trafford memasuki cerita rakyat sepak bola untuk pertama kalinya pada musim 1909/10. Tanah di mana stadion dibangun dibeli oleh Manchester Brewery Company (melalui John Henry Davies) dan disewakan kepada klub.</strong>
+                    </h3><br>
+                    
+                </div>
+                <script>
+                    function penjelasan2(){
+                        var x = document.getElementById('penjelasan2');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1970 sampai 1979</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan2()">+</button>
+                <div id="penjelasan2">
+                    <h3>
+                        <strong>Kata-kata Old Trafford memasuki cerita rakyat sepak bola untuk pertama kalinya pada musim 1909/10. Tanah di mana stadion dibangun dibeli oleh Manchester Brewery Company (melalui John Henry Davies) dan disewakan kepada klub.</strong>
+                    </h3><br>
+                    
+                </div>
+                <script>
+                    function penjelasan2(){
+                        var x = document.getElementById('penjelasan2');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1980 sampai 1989</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan2()">+</button>
+                <div id="penjelasan2">
+                    <h3>
+                        <strong>Kata-kata Old Trafford memasuki cerita rakyat sepak bola untuk pertama kalinya pada musim 1909/10. Tanah di mana stadion dibangun dibeli oleh Manchester Brewery Company (melalui John Henry Davies) dan disewakan kepada klub.</strong>
+                    </h3><br>
+                    
+                </div>
+                <script>
+                    function penjelasan2(){
+                        var x = document.getElementById('penjelasan2');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>1990 sampai 1999</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan2()">+</button>
+                <div id="penjelasan2">
+                    <h3>
+                        <strong>Kata-kata Old Trafford memasuki cerita rakyat sepak bola untuk pertama kalinya pada musim 1909/10. Tanah di mana stadion dibangun dibeli oleh Manchester Brewery Company (melalui John Henry Davies) dan disewakan kepada klub.</strong>
+                    </h3><br>
+                    
+                </div>
+                <script>
+                    function penjelasan2(){
+                        var x = document.getElementById('penjelasan2');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>2000 sampai 2009</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan2()">+</button>
+                <div id="penjelasan2">
+                    <h3>
+                        <strong>Kata-kata Old Trafford memasuki cerita rakyat sepak bola untuk pertama kalinya pada musim 1909/10. Tanah di mana stadion dibangun dibeli oleh Manchester Brewery Company (melalui John Henry Davies) dan disewakan kepada klub.</strong>
+                    </h3><br>
+                    
+                </div>
+                <script>
+                    function penjelasan2(){
+                        var x = document.getElementById('penjelasan2');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>2009 sampai 2019</h2>
+                    <h1>________________________________</h1>
+                </div>
+                <button class="cards-button" onclick="penjelasan2()">+</button>
+                <div id="penjelasan2">
+                    <h3>
+                        <strong>Kata-kata Old Trafford memasuki cerita rakyat sepak bola untuk pertama kalinya pada musim 1909/10. Tanah di mana stadion dibangun dibeli oleh Manchester Brewery Company (melalui John Henry Davies) dan disewakan kepada klub.</strong>
+                    </h3><br>
+                    
+                </div>
+                <script>
+                    function penjelasan2(){
+                        var x = document.getElementById('penjelasan2');
+                        if(x.style.display === "block"){
+                            x.style.display = "none";
+                        }else{
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+            
+            <div class="cards">
+                <img src="..//assets/sejarah1.jpg" alt="awda">
+                <div class="slashers">
+                    <h1>________________________________</h1>
+                    <h2>Sekarang</h2>
+                    <h1>________________________________</h1>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <!--TAB PEMAIN-->
+    <!--TAB KESEBELASAN-->
+    <!--TAB JERSEY-->
+
+    
+    <footer> <!--INI SECTION FOOTER DARI PROGRAM-->
+        <p>#GGMU 2024 EL GASING</p>
+    </footer>
+</body>
+</html>

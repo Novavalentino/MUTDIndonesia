@@ -3,7 +3,6 @@
     margin: 0px;
 }
 
-
 .sponsor {
     background-color: black;
     color: white;
@@ -20,16 +19,17 @@
 .navbar ul {
     display: flex;
     list-style-type: none;
-    padding: 10px;
+    padding: 1px;
     margin: 0px;
     justify-content: flex-start;
+    font-size: 20px;
 }
 
 .navbar ul li a {
     color: white;
 }
 
-.container {
+.emyu {
     justify-content: center;
     align-items: center;
     height: 350px;
@@ -54,7 +54,7 @@ aside {
     width: 20%;
 }
 
-.container img {
+.emyu img {
     width: 280px;
 }
 
@@ -75,7 +75,22 @@ aside {
     font-size: 30px;
 }
 
+.konten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+    padding: 20px;
+}
 
+.card {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 120px;
+    text-align: center;
+    width: 300px;
+}
 
 footer {
     background-color: rgb(34, 31, 31);
@@ -84,7 +99,7 @@ footer {
     width: 100%;
     height: 30px;
     padding-top: 10px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     
 }
@@ -93,5 +108,79 @@ footer p {
     color: red;
     text-align: center;
 }
+
+
+.main {
+    background-color: black;
+    color: wheat;
+}
+
+.main h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-self: center;
+    
+}
+
+
+
+
+
+.sejarah {
+    height: auto;
+    background-color: black;
+}
+
+.cards {
+    background-color: black;
+    justify-items: center;
+    margin-bottom: 90px;
+}
+
+.cards img {
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slashers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+.slashers h1 {
+    color: red;
+}
+ 
+.slashers h2 {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 30px;
+    color: white;
+}
+
+.cards-button {
+    background-color: #000000;
+    border: none;
+    color: wheat;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+#penjelasan1, #penjelasan2,#penjelasan3,#penjelasan4,#penjelasan5,#penjelasan6,#penjelasan7{
+    justify-items: center;
+    text-align: justify;
+    width: 650px;
+}
+
+
+
+
 
 
