@@ -3,8 +3,6 @@
     margin: 0px;
 }
 
-/* CSS UTAMA */
-
 .sponsor {
     background-color: black;
     color: white;
@@ -111,88 +109,6 @@ footer p {
     text-align: center;
 }
 
-
-.main {
-    background-color: black;
-    color: wheat;
-}
-
-.main h2 {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    justify-self: center;
-    
-}
-
-
-/* CSS TAB SEJARAH */
-
-.cards{
-    background-color: black;
-}
-
-.cards-content {
-    justify-items: center;
-    padding-bottom: 90px;
-}
-
-.cards img {
-    width: 550px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.slashers {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
- 
-.slashers h1 {
-    color: red;
-}
- 
-.slashers h2 {
-    margin-top: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
-    font-size: 30px;
-    color: white;
-}
-
-.cards-button {
-    background-color: #000000;
-    border: none;
-    color: wheat;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
-    border-radius: 50%;
-}
-
-#penjelasan1, #penjelasan2,#penjelasan3,#penjelasan4,#penjelasan5,#penjelasan6,#penjelasan7,#penjelasan8,#penjelasan9,#penjelasan10,#penjelasan11,#penjelasan12{
-    justify-items: center;
-    text-align: justify;
-    width: 650px;
-    background-color: #000000;
-}
-
-
-
-
-
-/* CSS TAB PENGHARGAAN */
-
-.penghargaan{
-    justify-items: center;
-    padding-bottom: 90px;
-}
-
-.penghargaan img {
-    width: 450px;
-}
 
 
 
