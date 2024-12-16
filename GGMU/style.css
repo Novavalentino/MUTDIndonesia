@@ -85,7 +85,7 @@ aside {
     padding: 20px;
 }
 
-.card {
+.card1, .card2, .card3 {
     background-color: #f1f1f1;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -93,6 +93,7 @@ aside {
     text-align: center;
     width: 300px;
 }
+
 
 footer {
     background-color: rgb(34, 31, 31);
