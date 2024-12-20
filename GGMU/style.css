@@ -8,8 +8,16 @@
 .sponsor {
     background-color: black;
     color: white;
-    justify-content: flex-end;
-    height: 50px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.sponsor img {
+    width: 60px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    flex-direction: row;
 }
 
 .navbar{
@@ -198,5 +206,74 @@ footer p {
 
 
 
+/* CSS TAB BERITA */
+
+.berita {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    text-align: justify;
+    width: 650px;   
+    padding-bottom: 50px;
+}
+
+.berita img {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    height: 350px;
+}
+
+.berita h2 {
+    font-size: 35px;
+}
 
 
+
+/* CSS PEMAIN */
+nama{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    background-color: red;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color:#fff;
+}

@@ -9,19 +9,21 @@
 <body>
     <header> <!--INI SECTION HEADER UNTUK SPONSOR BESERTA NAVBARNYA-->
         <div class="sponsor">
-            <img src="" alt="sponsor1">
-            <img src="" alt="sponsor2">
-            <img src="" alt="sponsor3">
+            <img src="./assets/sponsor/adidas.png" alt="sponsor1">
+            <img src="./assets/sponsor/chefrolet.png" alt="sponsor2">
+            <img src="./assets/sponsor/dhl.png" alt="sponsor3">
+            <img src="./assets/sponsor/dxc.png" alt="sponsor4">
+            <img src="./assets/sponsor/snapdragon.png" alt="sponsor5">
         </div>
         <div class="navbar"> <!--SECTION NAVBAR-->
             <ul>
                 <li><a href="landing.html">Beranda</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <li><a href="sejarah.html">Sejarah</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <li><a href="penghargaan.html">Penghargaan</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <li><a href="#">Pemain</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <li><a href="#">Kesebelasan</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <li><a href="pemain.html">Pemain</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <!-- <li><a href="#">Kesebelasan</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -->
                 <!-- <li><a href="berita.html">Berita</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -->
-                <li><a href="#">Jersey</a></li> 
+                <li><a href="jersey.html">Jersey</a></li> 
             </ul>
         </div>
     </header>
@@ -44,7 +46,7 @@
             <!--CSS UNTUK FOTO KONTEN-->
             <style>
                 .card1 {
-                    background-image: url(./assets/berita/news1.jpg);
+                    background-image: url(./assets/berita/news1/news1.jpg);
                     background-size: cover;
                     }
                 .card2 {
@@ -52,19 +54,39 @@
                     background-size: cover;
                 }
                 .card3 {
-                    background-image: url(./assets/berita/news3.jpg);
+                    background-image: url(./assets/berita/news2/news2.jpg);
                     background-size: cover;
                 }
+
+                .card1:hover, .card2:hover, .card3:hover {
+                    opacity: 85%;
+                }
+
+
+                /* CSS TAB BERITA */
+                .konten h3, h3 a {
+                    justify-self: center;
+                    color: transparent;
+                    font-size: 25px;  
+                }
+
+                .konten h3:hover, h3 a:hover {
+                    justify-self: center;
+                    color: white;
+                    font-size: 25px;
+                    background-color: black;
+                }
+                
+
             </style>
             <div class="card1">
-                
-                <img src="" alt="konten1">
+                <h3><a href="berita/berita1.html">Pelatih Baru Semangat Baru!!</a></h3>
             </div>
             <div class="card2">
-                <img src="" alt="konten2">
+                <h3><a href="pemain.html">Pemain Terbaru 2024/2025</a></h3>
             </div>
             <div class="card3">
-                <img src="" alt="konten3">
+                <h3><a href="berita/berita2.html">Kemenangan 2-1 lawan Man City!!!</a></h3>
             </div>
         </div>
     </main>
